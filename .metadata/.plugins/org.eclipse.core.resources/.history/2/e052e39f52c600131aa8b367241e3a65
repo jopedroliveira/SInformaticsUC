@@ -1,0 +1,56 @@
+package ex2;
+
+import java.util.Scanner;
+
+public class Pessoa {
+	
+	public static void main(String[] args){
+		Pessoa p1 = new Pessoa("Jose ", 20, 911111110);
+		Pessoa p2 = new Pessoa("Antonio ",45,253546852);
+		System.out.println("Nome: "+p1.nome + " Idade: "+p2.idade + " Telemove: "+p2.mobile);
+		System.out.println("Aletere o numero de telemovel da pessoa 1: "+p1.getTelefone());
+	}
+	
+	public  String nome;
+	public  int idade;
+	public  int mobile;
+	
+	public Pessoa(String a, int b, int c){
+		this.nome = a;
+		this.idade = b;
+		this.mobile = c;
+	}
+	/*
+	public String toString(){
+		String s = "";
+		s = s +"\n"+ nome+"\n" + idade+ "\n" + mobile;
+		return s;
+	}
+	public String getTelefone(){
+		String m = "";
+		return m + mobile;
+	}
+	
+	public int setTelefone(){
+		Scanner nmobile = new Scanner(System.in);
+		this.mobile = nmobile.nextInt();
+		return mobile;
+	}
+	
+	public boolean isOlder(Pessoa outraPessoa){
+		
+		if(this.idade > outraPessoa.idade){
+			return true;
+		}
+		else{
+			return false;
+		}
+
+
+
+
+	}
+
+*/
+}
+

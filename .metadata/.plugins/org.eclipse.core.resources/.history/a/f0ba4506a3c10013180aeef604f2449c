@@ -1,0 +1,31 @@
+package calc;
+
+public class calculadora {
+ 
+	public static float soma(float a, float b){
+		float value;
+		value = a + b;
+		return value;
+	}
+	
+	public static float sub(int operand1, int operand2){
+
+		float value;
+		value = operand1 - operand2;
+		return value;
+	}
+
+	public static float div(int operand1, int operand2){
+
+		float value;
+		value = operand1 / operand2;
+		return value;
+	}
+
+	public static float mult(int operand1, int operand2){
+
+		double value;
+		value = operand1 * operand2;
+		return value;
+	}
+}

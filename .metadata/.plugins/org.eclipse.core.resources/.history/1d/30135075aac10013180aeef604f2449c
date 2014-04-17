@@ -1,0 +1,21 @@
+package ex2;
+
+public class Pessoa {
+	
+	public String nome;
+	public int idade;
+	public int mobile;
+	
+	public Pessoa(String a, int b, int c){
+		this.nome = a;
+		this.idade = b;
+		this.mobile = c;
+	}
+	
+	public String toString(){
+		String s = "";
+		s = s + nome + idade + mobile;
+		return s;
+	}
+
+}

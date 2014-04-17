@@ -1,0 +1,49 @@
+package ex2;
+
+import java.util.Scanner;
+
+public class Pessoa {
+	
+	public String nome;
+	public int idade;
+	public int mobile;
+	
+	public Pessoa(String a, int b, int c){
+		this.nome = a;
+		this.idade = b;
+		this.mobile = c;
+	}
+	
+	public String toString(){
+		String s = "";
+		s = s +"\n"+ nome+"\n" + idade+ "\n" + mobile;
+		return s;
+	}
+	public String getTelefone(){
+		String m = "";
+		return m + mobile;
+	}
+	
+	public int setTelefone(){
+		Scanner nmobile = new Scanner(System.in);
+		this.mobile = nmobile.nextInt();
+		return mobile;
+	}
+	
+	public boolean isOlder(Pessoa outraPessoa){
+		boolean older = null;
+		if(Pessoa.idade>outraPessoa.idade){
+			return true;
+		}
+		else{
+			return false;
+		}
+		
+		
+		
+		
+	}
+		
+
+}
+
