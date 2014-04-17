@@ -1,0 +1,67 @@
+package exercicio3.java;
+
+public class Retangulo {
+	
+	//atributos
+	public int altura;
+	public int largura;
+	public double posicaox;
+	public double posicaoy;
+	
+	public retangconst(){
+		
+		this.altura = 10;
+		this.largura = 20;
+		this.posicaox = 0.0;
+		this.posicaoy = 0.0;
+	}
+	
+	public initre(int altura, int largura, double posicaox, double posicaoy){
+		this.altura = altura;
+		this.largura = largura;
+		this.posicaox = posicaox;
+		this.posicaoy = posicaoy;
+		
+	}
+
+	public int getAltura() {
+		return altura;
+	}
+
+	public void setAltura(int altura) {
+		this.altura = altura;
+	}
+
+	public int getLargura() {
+		return largura;
+	}
+
+	public void setLargura(int largura) {
+		this.largura = largura;
+	}
+
+	public double getPosicaox() {
+		return posicaox;
+	}
+
+	public void setPosicaox(double posicaox) {
+		this.posicaox = posicaox;
+	}
+
+	public double getPosicaoy() {
+		return posicaoy;
+	}
+
+	public void setPosicaoy(double posicaoy) {
+		this.posicaoy = posicaoy;
+	}
+	
+	public int calculaArea(int altura, int largura){
+		int area = altura*largura;
+		return area;
+	}
+	
+	
+
+}
+

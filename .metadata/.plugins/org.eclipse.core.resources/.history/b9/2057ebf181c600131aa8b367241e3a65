@@ -1,0 +1,18 @@
+package exercicio3.java;
+
+public class Retangulo {
+	
+	public construtor(){
+		int x,y;
+		this.altura = 10;
+		this.largura = 20;
+		this.posicao = posi();
+	}
+
+	private posi(){
+		this.x = 0;
+		this.y = 0;
+	}
+
+}
+
