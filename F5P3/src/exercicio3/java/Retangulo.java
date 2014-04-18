@@ -1,5 +1,7 @@
 package exercicio3.java;
 
+import java.util.Random;
+
 public class Retangulo {
 	
 	public static void main(String[] args){
@@ -17,7 +19,6 @@ public class Retangulo {
 	public double posicaoy;
 	
 	public Retangulo(){
-		
 		this.altura = 10;
 		this.largura = 20;
 		this.posicaox = 0.0;

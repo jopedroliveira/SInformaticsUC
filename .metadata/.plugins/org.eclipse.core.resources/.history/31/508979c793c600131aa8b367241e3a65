@@ -1,0 +1,28 @@
+package ex5;
+
+import java.util.Random;
+
+public class Retangulo {
+	//atributos
+	public int altura;
+	public int largura;
+	public double posicaox;
+	public double posicaoy;
+
+	public Retangulo(){
+		Random alt = new Random(10);
+		this.altura = alt;
+		this.largura = 20;
+		this.posicaox = 0.0;
+		this.posicaoy = 0.0;
+	}
+
+	public Retangulo(int altura, int largura, double posicaox, double posicaoy){
+		this.altura = altura;
+		this.largura = largura;
+		this.posicaox = posicaox;
+		this.posicaoy = posicaoy;
+
+	}
+
+}

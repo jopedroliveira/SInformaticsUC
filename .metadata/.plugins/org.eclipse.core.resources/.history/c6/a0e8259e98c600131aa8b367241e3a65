@@ -1,0 +1,20 @@
+package ex5;
+
+import java.util.Random;
+
+public class Retangulo {
+	//atributos
+	public int altura;
+	public int largura;
+//ver posicao
+
+	public Retangulo(){
+		Random rand = new Random();
+		this.altura = rand.nextInt(10) + 1;
+		this.largura = rand.nextInt(20)+1;
+	}
+	
+	public int calculaArea(int altura, int largura){
+		int area = altura*largura;
+		return area;
+}

@@ -1,0 +1,20 @@
+package ex5;
+
+import java.util.Random;
+
+public class position {
+	public int x,y;
+	
+	public position(){
+		Random rand = new Random();
+		this.x = rand.nextInt(10) + 1;
+		this.y = rand.nextInt(10) + 1;
+	}
+	
+	public double distancia(Pol outroPol){
+	double dx = this.x - outroPol.x; 
+	double dy = this.y - outroPol.y;
+	return Math.sqrt(dx*dx+dy*dy);
+}*/
+
+}

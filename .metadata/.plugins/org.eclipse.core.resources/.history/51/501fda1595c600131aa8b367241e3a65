@@ -1,0 +1,16 @@
+package ex5;
+
+public class main {
+	public static void main(String[] args){
+		int I_MAX = 10;
+		int J_MAX = 20;
+		
+		for(int i =0; i<I_MAX; i++){
+			for(int j = 0 ; j<J_MAX; j++){
+				System.out,print(".");
+				}
+			System.out.print("\n");
+		}
+	}
+
+}

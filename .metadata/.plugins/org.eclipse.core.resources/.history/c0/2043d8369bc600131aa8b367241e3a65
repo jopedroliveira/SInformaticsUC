@@ -1,0 +1,35 @@
+package ex5;
+
+import java.util.Random;
+
+
+public class Retangulo {
+	//atributos
+	public int altura;
+	public int largura;
+	public ex5.position position;
+//ver posicao
+
+	public Retangulo(){
+		Random rand = new Random();
+		this.altura = rand.nextInt(10) + 1;
+		this.largura = rand.nextInt(20)+1;
+		position posi = new position();
+		this.position = posi;
+	}
+	
+	public int calculaArea(int altura, int largura){
+		int area = altura*largura;
+		return area;
+	}
+	public String toString(){
+		return "R";
+	}
+
+	public double distancia(Retangulo outroPol){
+		double dx = this.Pol.x - outroPol.x; 
+		double dy = this.Pol.y - outroPol.y;
+		return Math.sqrt(dx*dx+dy*dy);
+	}
+	
+}
