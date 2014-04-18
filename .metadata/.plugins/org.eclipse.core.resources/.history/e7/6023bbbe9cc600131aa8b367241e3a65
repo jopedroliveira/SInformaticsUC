@@ -3,13 +3,11 @@ package ex5;
 import java.util.Random;
 
 public class Triangulo {
-	//Attributes
+	//atributos
 	public int altura;
 	public int largura;
 	public double diagonal;
 	public ex5.position position;
-	public int x;
-	public int y;
 
 	public Triangulo(){
 		Random rand = new Random();

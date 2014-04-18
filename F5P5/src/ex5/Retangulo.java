@@ -9,6 +9,8 @@ public class Retangulo {
 	public int largura;
 	public ex5.position position;
 //ver posicao
+	public int x;
+	public int y;
 
 	public Retangulo(){
 		Random rand = new Random();
