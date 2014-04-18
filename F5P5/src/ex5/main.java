@@ -1,22 +1,22 @@
 package ex5;
 
-import java.util.Scanner;
-import java.util.Random;
-
 public class main {
 	
-	public static void main(String[] args){
+	public static void main (String[] args){
 				
 		//UX
 		System.out.print("poligonos a ser gerados ");
 		Retangulo ret = new Retangulo();
 		Triangulo tri = new Triangulo();
 		
-		//distancia
-		double dis = ret.distancia(tri);
-		System.out.print("\nDistancia entre os poligonos: "+dis);
+		//Distance
+		System.out.print("\nRetangulo.x: "+ret.x+" Retangulo.y: "+ret.y);
+		System.out.print("\nTriangulo.x: "+tri.x +" Triangulo.y: "+tri.y);
+		System.out.print("\nDistancia entre os poligonos: " + tri.distancia(ret));
+		System.out.print("\nArea Triangulo: " + tri.calculaArea(tri.altura,tri.largura)+" Area Retangulo: "+ ret.calculaArea(ret.altura, ret.largura));
+		System.out.print("\nTriangulo maior que retangulo? "+ tri.isBiggerThan(ret));
 			
-		//mapa
+		//Map
 		int I_MAX = 10;
 		int J_MAX = 20;
 
@@ -28,7 +28,15 @@ public class main {
 				if(j==0){
 					System.out.print("   ");
 				}
-				System.out.print(".");
+				if(i==tri.x & j==tri.y){
+					System.out.print(tri.toString());
+				}
+				else if(i==ret.x & j==ret.y){
+					System.out.print(ret.toString());
+				}
+				else{			
+					System.out.print(".");
+				}
 			}
 			System.out.print("\n");
 		}
