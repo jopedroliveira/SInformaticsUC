@@ -7,7 +7,6 @@ import snakeoop.sNake;
 public class main {
 	public static void main(String[] args){
 		int ttl = 5;
-		int bonusttl = 3;
 		System.out.println("Snake\n");
 		//Criar Mapa
 		String[][] mapa = new String[10][20];
@@ -79,33 +78,21 @@ public class main {
 		new printMapa(mapa);
 		Scanner com = new Scanner(System.in);
 		
-		while(ttl>=0){ //adicionar as outra excepcoes pensar usar o try catch
+		while(ttl>0){ //adicionar as outra excepcoes pensar usar o try catch
 			int mov = com.nextInt();
 			mapa[snake.x][snake.y]=".";
 			new snakeMovv(snake, mov);
-			System.out.println("TTL atual: "+ttl);
-			if(snake.x==10 || snake.x ==-1 || snake.y == -1 || snake.y == 20){
-				System.out.println("Saiste do limite :( ");
-				break;
-			}
-			if(mapa[snake.x][snake.y] =="."){
-				mapa[snake.x][snake.y] = snake.car;
-				ttl = ttl-1;
-				new printMapa(mapa);
-			}
-			else if(mapa[snake.x][snake.y] == "c"){
+			System.out.println(" ");
+			if(mapa[snake.x][snake.y] =="." || mapa[snake.x][snake.y] == "c"){
 				mapa[snake.x][snake.y] = snake.car;
 				ttl = ttl+bonusttl;
 				new printMapa(mapa);
 			}
 			else{
 				System.out.println("Ohh morreste!");
-				ttl = -1;
+				ttl = 0;
 				break;
 			}
-		}
-		if(ttl <= 0){
-			System.out.println("Ohh acabaste com o teu TTL");
 		}
 	}
 }

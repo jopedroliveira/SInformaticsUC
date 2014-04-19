@@ -104,7 +104,7 @@ public class main {
 				break;
 			}
 		}
-		if(ttl <= 0){
+		if(ttl == 0){
 			System.out.println("Ohh acabaste com o teu TTL");
 		}
 	}

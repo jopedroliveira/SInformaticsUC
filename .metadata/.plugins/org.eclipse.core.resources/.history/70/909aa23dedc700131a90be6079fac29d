@@ -82,7 +82,7 @@ public class main {
 		while(ttl>=0){ //adicionar as outra excepcoes pensar usar o try catch
 			int mov = com.nextInt();
 			mapa[snake.x][snake.y]=".";
-			new snakeMovv(snake, mov);
+			new snakeMovv(snake, mov, ttl);
 			System.out.println("TTL atual: "+ttl);
 			if(snake.x==10 || snake.x ==-1 || snake.y == -1 || snake.y == 20){
 				System.out.println("Saiste do limite :( ");
