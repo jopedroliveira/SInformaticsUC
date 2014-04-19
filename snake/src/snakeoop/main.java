@@ -1,11 +1,12 @@
 package snakeoop;
 
 import java.util.Scanner;
-
+import snakeoop.sNake;
 
 
 public class main {
 	public static void main(String[] args){
+		int ttl = 5;
 		System.out.println("Snake\n");
 		//Criar Mapa
 		String[][] mapa = new String[10][20];
@@ -57,9 +58,6 @@ public class main {
 			}
 		}
 
-
-			
-		
 		//Iniciar jogo
 		System.out.println("Press Enter para iniciar.");
 		Scanner start = new Scanner(System.in);
@@ -79,16 +77,13 @@ public class main {
 		}
 		new printMapa(mapa);
 		
-		while(mapa[snake.x][snake.y]!="0"){ //adicionar as outra excepcoes pensar usar o try catch
-			snake = snakeMove(snake);
-			System.out.print(snake.x  +" "+snake.y+"\n");
-			new printMapa(mapa);
+		while(ttl>0){ //adicionar as outra excepcoes pensar usar o try catch
+			Scanner com = new Scanner(System.in);
+			String mov = com.nextLine();
+			sNake.snakemove(snake, mov);
+			//new printMapa(mapa);
 		}
 		//new printMapa(mapa);
 	}
 
-	private static sNake snakeMove(sNake snake) {
-		// TODO Auto-generated method stub
-		return null;
-	}
 }

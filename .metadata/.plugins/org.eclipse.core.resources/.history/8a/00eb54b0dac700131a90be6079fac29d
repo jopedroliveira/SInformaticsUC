@@ -1,0 +1,32 @@
+package snakeoop;
+
+
+public class snakeMove {
+	int x,y;
+	
+	public snakeMove(sNake snak, String mov){
+		System.out.println(mov);
+		String up = "w";
+		String left = "a";
+		String righ = "d";
+		String down = "s";
+		//int TTL = 3;
+		//int TTLbonus = 3;
+		
+		
+		if(mov == up){
+			this.y = snak.y+1;
+		}
+		else if(mov == down){
+			this.y=snak.y-1;
+		}
+		else if(mov == left){
+			this.x = snake.x-1;
+		}
+		else if(mov == righ){
+			this.x = snake.x+1;
+		}
+		System.out.println("x velho:" + snake.x+" x novo:"+this.x);
+	}
+}
+

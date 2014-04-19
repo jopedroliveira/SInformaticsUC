@@ -1,0 +1,23 @@
+package snakeoop;
+
+
+public class snakeMove {
+	
+	public snakeMove(sNake snak, String mov){
+		
+		if(mov == "w"){
+			snak.y = snak.y+1;
+		}
+		else if(mov == "s"){
+			//this.y=snak.y-1;
+		}
+		else if(mov == "a"){
+			snak.x = snak.x-1;
+		}
+		else if(mov == "d"){
+			//this.x = snak.x+1;
+		}
+		System.out.println("x velho:" + snak.x);
+	}
+}
+
