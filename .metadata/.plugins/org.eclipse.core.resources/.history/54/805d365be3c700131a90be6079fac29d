@@ -77,7 +77,7 @@ public class main {
 		}
 		new printMapa(mapa);
 		
-		while(ttl>0){ //adicionar as outra excepcoes pensar usar o try catch
+		//while(ttl>0){ //adicionar as outra excepcoes pensar usar o try catch
 			Scanner com = new Scanner(System.in);
 			String mov = com.nextLine();
 			//sNake.snakemove(snake, mov);
@@ -89,7 +89,6 @@ public class main {
 			
 			
 			if(mov == up){
-				System.out.println("aqui");
 				snake.y = snake.y+1;
 			}
 			if(mov == down){
@@ -103,9 +102,8 @@ public class main {
 			}
 			
 			System.out.println(snake.x);
-			
 		
 		//new printMapa(mapa);
-		}
 	}
+
 }

@@ -89,7 +89,6 @@ public class main {
 			
 			
 			if(mov == up){
-				System.out.println("aqui");
 				snake.y = snake.y+1;
 			}
 			if(mov == down){
@@ -103,9 +102,9 @@ public class main {
 			}
 			
 			System.out.println(snake.x);
-			
+			com.nextLine();
 		
 		//new printMapa(mapa);
-		}
 	}
+
 }

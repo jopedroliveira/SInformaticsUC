@@ -89,23 +89,21 @@ public class main {
 			
 			
 			if(mov == up){
-				System.out.println("aqui");
 				snake.y = snake.y+1;
 			}
 			if(mov == down){
 				snake.y=snake.y-1;
 			}
 			if(mov == "a"){
-				snake.x ++; // = snake.x-1;
+				snake.x = snake.x-1;
 			}
 			if(mov == righ){
 				snake.x = snake.x+1;
 			}
 			
 			System.out.println(snake.x);
-			
-		
-		//new printMapa(mapa);
 		}
+		//new printMapa(mapa);
 	}
+
 }

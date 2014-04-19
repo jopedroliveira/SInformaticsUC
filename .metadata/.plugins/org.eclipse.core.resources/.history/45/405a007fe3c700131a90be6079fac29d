@@ -88,8 +88,7 @@ public class main {
 			String down = "s";
 			
 			
-			if(mov == up){
-				System.out.println("aqui");
+			if(String mov = com.nextLine(); mov == up){
 				snake.y = snake.y+1;
 			}
 			if(mov == down){

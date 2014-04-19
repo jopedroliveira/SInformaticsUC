@@ -80,32 +80,10 @@ public class main {
 		while(ttl>0){ //adicionar as outra excepcoes pensar usar o try catch
 			Scanner com = new Scanner(System.in);
 			String mov = com.nextLine();
-			//sNake.snakemove(snake, mov);
+			sNake.snakemove(snake, mov);
 			//new printMapa(mapa);
-			String up = "w";
-			String left = "a";
-			String righ = "d";
-			String down = "s";
-			
-			
-			if(mov == up){
-				System.out.println("aqui");
-				snake.y = snake.y+1;
-			}
-			if(mov == down){
-				snake.y=snake.y-1;
-			}
-			if(mov == "a"){
-				snake.x ++; // = snake.x-1;
-			}
-			if(mov == righ){
-				snake.x = snake.x+1;
-			}
-			
-			System.out.println(snake.x);
-			
-		
-		//new printMapa(mapa);
 		}
+		//new printMapa(mapa);
 	}
+
 }

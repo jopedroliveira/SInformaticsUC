@@ -18,7 +18,8 @@ public class sNake {
 		String left = "a";
 		String righ = "d";
 		String down = "s";
-		
+		//int TTL = 3;
+		//int TTLbonus = 3;
 		
 		if(mov == up){
 			snak.y = snak.y+1;
