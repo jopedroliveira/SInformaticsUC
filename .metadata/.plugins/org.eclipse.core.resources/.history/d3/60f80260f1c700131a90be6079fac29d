@@ -76,14 +76,11 @@ public class main {
 		}
 		
 		Scanner com = new Scanner(System.in);
-		System.out.println("TTL atual: "+ttl);
+		System.out.print("TTL atual: "+ttl);
 		new printMapa(mapa);
 		
 		while(ttl>=0){ //adicionar as outra excepcoes pensar usar o try catch
-			
-			new movimentoPontuacao(mapa,snake,ttl,bonusttl);
-		}
-			/*int mov = com.nextInt();
+			int mov = com.nextInt();
 			mapa[snake.x][snake.y]=".";
 			new snakeMovv(snake, mov);
 			System.out.println("TTL atual: "+ttl);
@@ -109,8 +106,7 @@ public class main {
 		}
 		if(ttl <= 0){
 			System.out.println("Ohh acabaste com o teu TTL");
-		}*/
-
+		}
 	}
 }
 

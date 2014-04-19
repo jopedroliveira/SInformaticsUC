@@ -1,0 +1,37 @@
+package snakkoop;
+
+import java.util.Scanner;
+
+public class movimentoPontuacao {
+	Scanner com = new Scanner(System.in);
+	
+	public movimentoPontuacao(String mapaxx, sNake snakk, int ttll, int ttllbonus){
+		int mov = com.nextInt();
+
+		mapaxxx[snakk.x][snakk.y]=".";
+		new snakeMovv(snakk, mov);
+		System.out.println("ttll atual: "+ttll);
+		if(snakk.x==10 || snakk.x ==-1 || snakk.y == -1 || snakk.y == 20){
+			System.out.println("Saiste do limite :( ");
+			break;
+		}
+		if(mapaxx[snakk.x][snakk.y] =="."){
+			mapaxx[snakk.x][snakk.y] = snakk.car;
+			ttll = ttll-1;
+			new printMapa(mapaxx);
+		}
+		else if(mapaxx[snakk.x][snakk.y] == "c"){
+			mapaxx[snakk.x][snakk.y] = snakk.car;
+			ttll = ttll+ttlbl;
+			new printMapa(mapaxx);
+		}
+		else{
+			System.out.println("Ohh morreste!");
+			ttll = -1;
+			break;
+		}
+	}
+	if(ttll <= 0){
+		System.out.println("Ohh acabaste com o teu ttll");
+
+	}

@@ -63,7 +63,9 @@ public class main {
 		System.out.println("Press Enter para iniciar.");
 		Scanner start = new Scanner(System.in);
 		start.nextLine();
-
+		new printMapa(mapa);
+		System.out.println("Aqui esta o seu mapa.\nPress Enter para joagar.");
+		start.nextLine();
 
 		//Criar a snake
 		sNake snake = new sNake();
@@ -74,16 +76,11 @@ public class main {
 				bb=true;
 			}
 		}
-		
-		Scanner com = new Scanner(System.in);
-		System.out.println("TTL atual: "+ttl);
 		new printMapa(mapa);
+		Scanner com = new Scanner(System.in);
 		
 		while(ttl>=0){ //adicionar as outra excepcoes pensar usar o try catch
-			
-			new movimentoPontuacao(mapa,snake,ttl,bonusttl);
-		}
-			/*int mov = com.nextInt();
+			int mov = com.nextInt();
 			mapa[snake.x][snake.y]=".";
 			new snakeMovv(snake, mov);
 			System.out.println("TTL atual: "+ttl);
@@ -109,8 +106,7 @@ public class main {
 		}
 		if(ttl <= 0){
 			System.out.println("Ohh acabaste com o teu TTL");
-		}*/
-
+		}
 	}
 }
 

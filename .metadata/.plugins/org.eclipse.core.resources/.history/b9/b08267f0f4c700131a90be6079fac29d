@@ -80,9 +80,7 @@ public class main {
 		new printMapa(mapa);
 		
 		while(ttl>=0){ //adicionar as outra excepcoes pensar usar o try catch
-			
-			new movimentoPontuacao(mapa,snake,ttl,bonusttl);
-		}
+			new movimentoPotuacao(mapa,snake,ttl,bonusttl);
 			/*int mov = com.nextInt();
 			mapa[snake.x][snake.y]=".";
 			new snakeMovv(snake, mov);
@@ -110,7 +108,8 @@ public class main {
 		if(ttl <= 0){
 			System.out.println("Ohh acabaste com o teu TTL");
 		}*/
-
+		
+		}
 	}
 }
 

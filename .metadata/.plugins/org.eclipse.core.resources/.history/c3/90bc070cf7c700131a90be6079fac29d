@@ -110,7 +110,8 @@ public class main {
 		if(ttl <= 0){
 			System.out.println("Ohh acabaste com o teu TTL");
 		}*/
-
+		
+		}
 	}
 }
 
