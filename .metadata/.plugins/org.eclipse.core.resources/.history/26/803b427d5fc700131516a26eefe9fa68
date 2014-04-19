@@ -11,7 +11,7 @@ public class main {
 			}
 		}
 		//Criar criarObjeto e saida
-		criarObjeto S =null;
+		String S =null;
 		for(int xx=0; xx<11; xx++){
 			
 			if(xx < 10){
@@ -24,7 +24,6 @@ public class main {
 				mapa[obs.x][obs.y] = "S";
 			}
 		}
-		
 		
 		//Criar inimigos
 		criarObjeto inimigo[] = new criarObjeto[3];
@@ -49,6 +48,7 @@ public class main {
 				}
 			}
 		}
+
 
 		new printMapa(mapa);
 	}

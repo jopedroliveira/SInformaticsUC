@@ -25,7 +25,6 @@ public class main {
 			}
 		}
 		
-		
 		//Criar inimigos
 		criarObjeto inimigo[] = new criarObjeto[3];
 		for(int zz =0; zz< inimigo.length; zz++){
@@ -49,6 +48,7 @@ public class main {
 				}
 			}
 		}
+
 
 		new printMapa(mapa);
 	}

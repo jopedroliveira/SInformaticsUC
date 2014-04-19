@@ -11,20 +11,13 @@ public class main {
 			}
 		}
 		//Criar criarObjeto e saida
-		criarObjeto S =null;
 		for(int xx=0; xx<11; xx++){
-			
-			if(xx < 10){
-				criarObjeto obs = new criarObjeto();
-				mapa[obs.x][obs.y] = "X";
-			}
-			else{
-				criarObjeto obs = new criarObjeto();
-				S = obs; 
+			criarObjeto obs = new criarObjeto();
+			if(xx== 10){
 				mapa[obs.x][obs.y] = "S";
 			}
+			mapa[obs.x][obs.y] = "X";
 		}
-		
 		
 		//Criar inimigos
 		criarObjeto inimigo[] = new criarObjeto[3];
@@ -49,6 +42,7 @@ public class main {
 				}
 			}
 		}
+
 
 		new printMapa(mapa);
 	}

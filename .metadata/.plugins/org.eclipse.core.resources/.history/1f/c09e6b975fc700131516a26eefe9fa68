@@ -24,7 +24,7 @@ public class main {
 				mapa[obs.x][obs.y] = "S";
 			}
 		}
-		
+		System.out.print(S.x+S.y);
 		
 		//Criar inimigos
 		criarObjeto inimigo[] = new criarObjeto[3];
@@ -49,6 +49,7 @@ public class main {
 				}
 			}
 		}
+
 
 		new printMapa(mapa);
 	}

@@ -10,21 +10,11 @@ public class main {
 				mapa[i][j]= ".";
 			}
 		}
-		//Criar criarObjeto e saida
-		criarObjeto S =null;
-		for(int xx=0; xx<11; xx++){
-			
-			if(xx < 10){
-				criarObjeto obs = new criarObjeto();
-				mapa[obs.x][obs.y] = "X";
-			}
-			else{
-				criarObjeto obs = new criarObjeto();
-				S = obs; 
-				mapa[obs.x][obs.y] = "S";
-			}
+		//Criar criarObjeto
+		for(int xx=0; xx<10; xx++){
+			criarObjeto obs = new criarObjeto();
+			mapa[obs.x][obs.y] = "X";
 		}
-		
 		
 		//Criar inimigos
 		criarObjeto inimigo[] = new criarObjeto[3];
@@ -49,6 +39,7 @@ public class main {
 				}
 			}
 		}
+
 
 		new printMapa(mapa);
 	}
