@@ -1,0 +1,11 @@
+package snakeoop;
+
+public class obstaculos {
+	ublic snakeoop.posicao position;
+	
+	public obstaculos(){
+		this.x = posi.x;
+		this.y = posi.y;
+	}
+
+}

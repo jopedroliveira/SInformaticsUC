@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="17" version="2.0">
 <workbenchAdvisor/>
-<window height="745" maximized="true" width="652" x="66" y="24">
+<window height="735" maximized="true" width="652" x="114" y="46">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -30,17 +30,27 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Pessoa.java" partName="Pessoa.java" path="/home/pedrooliveira/workspace/F5E2/src/ex2/Pessoa.java" title="Pessoa.java" tooltip="F5E2/src/ex2/Pessoa.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/F5E2/src/ex2/Pessoa.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="373" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="main.java" partName="main.java" path="/home/pedrooliveira/workspace/F5P5/src/ex5/main.java" title="main.java" tooltip="F5P5/src/ex5/main.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/F5P5/src/ex5/main.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="78" selectionOffset="586" selectionTopPixel="51"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="calculadora.java" partName="calculadora.java" path="/home/pedrooliveira/workspace/F5P1/src/calc/calculadora.java" title="calculadora.java" tooltip="F5P1/src/calc/calculadora.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/F5P1/src/calc/calculadora.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="11" selectionOffset="28" selectionTopPixel="34"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Retangulo.java" partName="Retangulo.java" path="/home/pedrooliveira/workspace/F5P5/src/ex5/Retangulo.java" title="Retangulo.java" tooltip="F5P5/src/ex5/Retangulo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/F5P5/src/ex5/Retangulo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="881" selectionTopPixel="374"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Triangulo.java" partName="Triangulo.java" path="/home/pedrooliveira/workspace/F5P5/src/ex5/Triangulo.java" title="Triangulo.java" tooltip="F5P5/src/ex5/Triangulo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/F5P5/src/ex5/Triangulo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="219" selectionOffset="760" selectionTopPixel="507"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="position.java" partName="position.java" path="/home/pedrooliveira/workspace/F5P5/src/ex5/position.java" title="position.java" tooltip="F5P5/src/ex5/position.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/F5P5/src/ex5/position.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="202" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -56,6 +66,11 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors (1 item)"/>
+<category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Errors"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="261" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -227,12 +242,12 @@
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="org.eclipse.jdt.ui.PackageExplorer"/>
-<view id="org.eclipse.ui.views.ResourceNavigator"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.ui.views.ResourceNavigator"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -257,7 +272,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.14263566" ratioLeft="184" ratioRight="1106" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.92734224" ratioLeft="485" ratioRight="38" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.67373574" ratioLeft="413" ratioRight="200" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -291,160 +306,160 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/F5P1/src/calc/calculadora.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/F5P1/src/test/exercicio51.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/F5E2/src/ex2/pessoa.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/F5E2/src/ex2/Pessoa.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/F5P5/src/ex5/main.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/F5P5/src/ex5/Retangulo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/F5P5/src/ex5/Triangulo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/F5P3/src/exercicio3/java/Retangulo.java"/>
 </editors>
-<item historyLabel="exercicio51.java" index="1">
-<position info="not_deleted" x="108" y="0"/>
+<item historyLabel="Triangulo.java" index="2">
+<position info="not_deleted" x="378" y="69"/>
 </item>
-<item historyLabel="exercicio51.java" index="1">
-<position info="not_deleted" x="403" y="0"/>
+<item historyLabel="Retangulo.java" index="1">
+<position info="not_deleted" x="154" y="0"/>
 </item>
-<item historyLabel="exercicio51.java" index="1">
+<item historyLabel="main.java" index="0">
+<position info="not_deleted" x="314" y="0"/>
+</item>
+<item historyLabel="main.java" index="0">
+<position info="not_deleted" x="1041" y="0"/>
+</item>
+<item historyLabel="main.java" index="0">
+<position info="not_deleted" x="61" y="0"/>
+</item>
+<item historyLabel="main.java" index="0">
+<position info="not_deleted" x="941" y="0"/>
+</item>
+<item historyLabel="Retangulo.java" index="3">
 <position/>
 </item>
-<item historyLabel="exercicio51.java" index="1">
-<position/>
+<item historyLabel="main.java" index="0">
+<position info="not_deleted" x="1022" y="0"/>
 </item>
-<item historyLabel="exercicio51.java" index="1">
-<position info="not_deleted" x="398" y="0"/>
+<item historyLabel="Retangulo.java" index="1">
+<position info="not_deleted" x="507" y="0"/>
 </item>
-<item historyLabel="calculadora.java" index="0">
-<position info="not_deleted" x="498" y="0"/>
+<item historyLabel="main.java" index="0">
+<position info="not_deleted" x="976" y="0"/>
 </item>
-<item historyLabel="exercicio51.java" index="1">
-<position info="not_deleted" x="398" y="0"/>
+<item historyLabel="Retangulo.java" index="1">
+<position info="not_deleted" x="511" y="0"/>
 </item>
-<item historyLabel="exercicio51.java" index="1">
-<position info="not_deleted" x="398" y="0"/>
+<item historyLabel="main.java" index="0">
+<position info="not_deleted" x="976" y="0"/>
 </item>
-<item historyLabel="calculadora.java" index="0">
-<position info="not_deleted" x="399" y="0"/>
+<item historyLabel="main.java" index="0">
+<position info="not_deleted" x="1020" y="0"/>
 </item>
-<item historyLabel="exercicio51.java" index="1">
-<position info="not_deleted" x="398" y="0"/>
+<item historyLabel="Triangulo.java" index="2">
+<position info="not_deleted" x="378" y="69"/>
 </item>
-<item historyLabel="exercicio51.java" index="1">
-<position info="not_deleted" x="375" y="0"/>
+<item historyLabel="Retangulo.java" index="1">
+<position info="not_deleted" x="289" y="0"/>
 </item>
-<item historyLabel="exercicio51.java" index="1">
-<position info="not_deleted" x="144" y="0"/>
+<item historyLabel="Triangulo.java" index="2">
+<position info="not_deleted" x="279" y="0"/>
 </item>
-<item historyLabel="calculadora.java" index="0">
-<position info="not_deleted" x="399" y="0"/>
+<item historyLabel="main.java" index="0">
+<position info="not_deleted" x="1020" y="0"/>
 </item>
-<item historyLabel="exercicio51.java" index="1">
-<position info="not_deleted" x="135" y="0"/>
+<item historyLabel="main.java" index="0">
+<position info="not_deleted" x="581" y="0"/>
 </item>
-<item historyLabel="calculadora.java" index="0">
-<position info="not_deleted" x="399" y="0"/>
+<item historyLabel="main.java" index="0">
+<position info="not_deleted" x="574" y="0"/>
 </item>
-<item historyLabel="exercicio51.java" index="1">
-<position info="not_deleted" x="403" y="0"/>
+<item historyLabel="main.java" index="0">
+<position info="not_deleted" x="663" y="0"/>
 </item>
-<item historyLabel="calculadora.java" index="0">
-<position info="not_deleted" x="175" y="0"/>
+<item historyLabel="Triangulo.java" index="2">
+<position info="not_deleted" x="279" y="0"/>
 </item>
-<item historyLabel="exercicio51.java" index="1">
-<position info="not_deleted" x="194" y="0"/>
+<item historyLabel="Retangulo.java" index="3">
+<position info="not_deleted" x="1557" y="219"/>
 </item>
-<item historyLabel="calculadora.java" index="0">
-<position info="not_deleted" x="116" y="0"/>
+<item historyLabel="Retangulo.java" index="1">
+<position info="not_deleted" x="656" y="222"/>
 </item>
-<item historyLabel="exercicio51.java" index="1">
-<position info="not_deleted" x="194" y="0"/>
+<item historyLabel="Triangulo.java" index="2">
+<position info="not_deleted" x="900" y="0"/>
 </item>
-<item historyLabel="calculadora.java" index="0">
-<position info="not_deleted" x="116" y="0"/>
+<item historyLabel="Retangulo.java" index="3">
+<position info="not_deleted" x="1557" y="219"/>
 </item>
-<item historyLabel="exercicio51.java" index="1">
-<position info="not_deleted" x="375" y="0"/>
+<item historyLabel="Retangulo.java" index="1">
+<position info="not_deleted" x="40" y="0"/>
 </item>
-<item historyLabel="calculadora.java" index="0">
-<position info="not_deleted" x="438" y="0"/>
+<item historyLabel="Triangulo.java" index="2">
+<position info="not_deleted" x="900" y="0"/>
 </item>
-<item historyLabel="exercicio51.java" index="1">
-<position info="not_deleted" x="375" y="0"/>
+<item historyLabel="Retangulo.java" index="1">
+<position info="not_deleted" x="813" y="65"/>
 </item>
-<item historyLabel="calculadora.java" index="0">
-<position info="not_deleted" x="486" y="0"/>
+<item historyLabel="Triangulo.java" index="2">
+<position info="not_deleted" x="979" y="0"/>
 </item>
-<item historyLabel="exercicio51.java" index="1">
-<position info="not_deleted" x="375" y="0"/>
+<item historyLabel="main.java" index="0">
+<position info="not_deleted" x="662" y="0"/>
 </item>
-<item historyLabel="calculadora.java" index="0">
-<position info="not_deleted" x="445" y="0"/>
+<item historyLabel="Retangulo.java" index="1">
+<position info="not_deleted" x="845" y="0"/>
 </item>
-<item historyLabel="exercicio51.java" index="1">
-<position info="not_deleted" x="403" y="0"/>
+<item historyLabel="main.java" index="0">
+<position info="not_deleted" x="662" y="0"/>
 </item>
-<item historyLabel="calculadora.java" index="0">
-<position/>
+<item historyLabel="Retangulo.java" index="1">
+<position info="not_deleted" x="845" y="0"/>
 </item>
-<item historyLabel="exercicio51.java" index="1">
-<position info="not_deleted" x="375" y="0"/>
+<item historyLabel="Retangulo.java" index="3">
+<position info="not_deleted" x="1557" y="219"/>
 </item>
-<item historyLabel="calculadora.java" index="0">
-<position info="not_deleted" x="333" y="0"/>
+<item historyLabel="Retangulo.java" index="1">
+<position info="not_deleted" x="845" y="0"/>
 </item>
-<item historyLabel="exercicio51.java" index="1">
-<position info="not_deleted" x="375" y="0"/>
+<item historyLabel="main.java" index="0">
+<position info="not_deleted" x="675" y="0"/>
 </item>
-<item historyLabel="calculadora.java" index="0">
-<position info="not_deleted" x="162" y="0"/>
+<item historyLabel="Triangulo.java" index="2">
+<position info="not_deleted" x="758" y="0"/>
 </item>
-<item historyLabel="pessoa.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Retangulo.java" index="1">
+<position info="not_deleted" x="881" y="0"/>
 </item>
-<item historyLabel="calculadora.java" index="0">
-<position info="not_deleted" x="28" y="11"/>
+<item historyLabel="main.java" index="0">
+<position info="not_deleted" x="675" y="0"/>
 </item>
-<item historyLabel="pessoa.java" index="2">
-<position info="not_deleted" x="231" y="0"/>
+<item historyLabel="Triangulo.java" index="2">
+<position info="not_deleted" x="788" y="9"/>
 </item>
-<item historyLabel="calculadora.java" index="0">
-<position info="not_deleted" x="28" y="11"/>
+<item historyLabel="Triangulo.java" index="2">
+<position info="not_deleted" x="801" y="0"/>
 </item>
-<item historyLabel="pessoa.java" index="2">
-<position/>
+<item historyLabel="main.java" index="0">
+<position info="not_deleted" x="675" y="0"/>
 </item>
-<item historyLabel="calculadora.java" index="0">
-<position info="not_deleted" x="28" y="11"/>
+<item historyLabel="Triangulo.java" index="2">
+<position info="not_deleted" x="801" y="0"/>
 </item>
-<item historyLabel="pessoa.java" index="2">
-<position info="not_deleted" x="231" y="0"/>
+<item historyLabel="main.java" index="0">
+<position info="not_deleted" x="675" y="0"/>
 </item>
-<item historyLabel="calculadora.java" index="0">
-<position info="not_deleted" x="28" y="11"/>
+<item historyLabel="Triangulo.java" index="2">
+<position info="not_deleted" x="801" y="0"/>
 </item>
-<item historyLabel="pessoa.java" index="2">
-<position/>
+<item historyLabel="Retangulo.java" index="1">
+<position info="not_deleted" x="881" y="0"/>
 </item>
-<item historyLabel="calculadora.java" index="0">
-<position info="not_deleted" x="28" y="11"/>
+<item historyLabel="Triangulo.java" index="2">
+<position info="not_deleted" x="801" y="0"/>
 </item>
-<item historyLabel="pessoa.java" index="2">
-<position/>
+<item historyLabel="Retangulo.java" index="1">
+<position info="not_deleted" x="881" y="0"/>
 </item>
-<item historyLabel="pessoa.java" index="2">
-<position info="not_deleted" x="138" y="0"/>
+<item historyLabel="main.java" index="0">
+<position info="not_deleted" x="586" y="78"/>
 </item>
-<item historyLabel="pessoa.java" index="2">
-<position info="not_deleted" x="223" y="0"/>
-</item>
-<item historyLabel="pessoa.java" index="2">
-<position info="not_deleted" x="28" y="0"/>
-</item>
-<item historyLabel="Pessoa.java" index="3">
-<position info="not_deleted" x="27" y="6"/>
-</item>
-<item historyLabel="Pessoa.java" index="3">
-<position info="not_deleted" x="266" y="0"/>
-</item>
-<item active="true" historyLabel="Pessoa.java" index="3">
-<position info="not_deleted" x="353" y="0"/>
+<item active="true" historyLabel="Triangulo.java" index="2">
+<position info="not_deleted" x="801" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -452,6 +467,12 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -463,23 +484,35 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Retangulo.java" tooltip="F5P3/src/exercicio3/java/Retangulo.java">
+<persistable path="/F5P3/src/exercicio3/java/Retangulo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="position.java" tooltip="F5P5/src/ex5/position.java">
+<persistable path="/F5P5/src/ex5/position.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Triangulo.java" tooltip="F5P5/src/ex5/Triangulo.java">
+<persistable path="/F5P5/src/ex5/Triangulo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Retangulo.java" tooltip="F5P5/src/ex5/Retangulo.java">
+<persistable path="/F5P5/src/ex5/Retangulo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Pessoa.java" tooltip="F5E2/src/ex2/Pessoa.java">
+<persistable path="/F5E2/src/ex2/Pessoa.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="calculadora.java" tooltip="F5P1/src/calc/calculadora.java">
 <persistable path="/F5P1/src/calc/calculadora.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="pessoa.java" tooltip="F5E2/src/ex2/pessoa.java">
-<persistable path="/F5E2/src/ex2/pessoa.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="exercicio51.java" tooltip="F5P1/src/test/exercicio51.java">
 <persistable path="/F5P1/src/test/exercicio51.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="av3d.java" tooltip="av3d.java/src/av3d.java">
-<persistable path="/av3d.java/src/av3d.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="teste.java" tooltip="F5E2/src/ex2/teste.java">
+<persistable path="/F5E2/src/ex2/teste.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="aval3d.java" tooltip="avaliacao3d/src/aval3d.java">
-<persistable path="/avaliacao3d/src/aval3d.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="mapa.java" tooltip="F5P5/src/ex5/mapa.java">
+<persistable path="/F5P5/src/ex5/mapa.java"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="avaliacaodd.java" tooltip="/media/OS/Users/Pedro Oliveira/workspace/avaliacao3.java/src/av3/avaliacaodd.java">
-<persistable uri="file:/media/OS/Users/Pedro%20Oliveira/workspace/avaliacao3.java/src/av3/avaliacaodd.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="main.java" tooltip="F5P5/src/ex5/main.java">
+<persistable path="/F5P5/src/ex5/main.java"/>
 </file>
 </mruList>
 </workbench>

@@ -1,0 +1,29 @@
+package snakeoop;
+
+public class main {
+	public static void main(String[] args){
+		//Criar Mapa
+		String[][] mapa = new String[10][20];
+		for(int i = 0; i< mapa.length; i++){ 
+			for(int j = 0; j<mapa[0].length;j++){
+				mapa[i][j]= ".";
+			}
+		}
+
+		//Criar obstaculos
+		obstaculos obs = new obstaculos();
+		
+		/*for(int ii = 0; ii< mapa.length; ii++){ 
+			for(int jj = 0; jj<mapa[0].length;jj++){
+				System.out.print(mapa[ii][jj]);
+			}
+			System.out.print("\n");
+		}*/
+		
+		/*
+		
+		}*/
+
+
+	}
+}

@@ -1,0 +1,13 @@
+package snakeoop;
+import snakeoop.main;
+public class printmapa {
+
+	public String printmapa(){
+		for(int ii = 0; ii< mapa.length; ii++){ 
+			for(int jj = 0; jj<mapa[0].length;jj++){
+				System.out.print(mapa[ii][jj]);
+			}
+			System.out.print("\n");
+		}
+	}
+}

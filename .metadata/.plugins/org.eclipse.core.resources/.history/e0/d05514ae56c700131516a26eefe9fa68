@@ -1,0 +1,31 @@
+package snakeoop;
+
+public class main {
+	public static void main(String[] args){
+		System.out.println("Snake\n");
+		//Criar Mapa
+		String[][] mapa = new String[10][20];
+		for(int i = 0; i< mapa.length; i++){ 
+			for(int j = 0; j<mapa[0].length;j++){
+				mapa[i][j]= ".";
+			}
+		}
+		//Criar obstaculos
+		for(int xx=0; xx<10; xx++){
+			obstaculos obs = new obstaculos();
+			mapa[obs.x][obs.y] = "X";
+		}
+		
+		//Criar inimigos
+		obstaculos inimigo[] = new obstaculos[3];
+		for(int zz =0; zz<3; zz++){
+			obstaculos inim = new obstaculos();
+			inimigo[zz] = inim;
+		} 
+		
+		mapa[inimigo[0].x][inimigo[0].y]="I";
+		mapa[inimigo[1].x][inimigo[1].y]="I";
+		mapa[inimigo[2].x][inimigo[2].y]="I";
+		new printMapa(mapa);
+	}
+}

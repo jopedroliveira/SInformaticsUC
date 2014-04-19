@@ -1,0 +1,10 @@
+package snakeoop;
+
+public class obstaculos {
+	
+	public obstaculos(){
+		this.x = posi.x;
+		this.y = posi.y;
+	}
+
+}

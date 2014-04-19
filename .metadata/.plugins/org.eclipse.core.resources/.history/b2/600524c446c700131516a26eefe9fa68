@@ -1,0 +1,11 @@
+package snakeoop;
+
+public class obstaculos {
+	abstract int posicao();
+	
+	public obstaculos(){
+		this.x = posi.x;
+		this.y = posi.y;
+	}
+
+}

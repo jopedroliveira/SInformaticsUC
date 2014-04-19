@@ -1,0 +1,9 @@
+package snakeoop;
+
+public class main {
+	public static void main(String[] args){
+		obstaculos obs = new obstaculos();
+		
+		
+	}
+}
