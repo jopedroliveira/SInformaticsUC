@@ -76,36 +76,23 @@ public class main {
 			}
 		}
 		new printMapa(mapa);
+		Scanner com = new Scanner(System.in);
 		
 		while(ttl>0){ //adicionar as outra excepcoes pensar usar o try catch
-			Scanner com = new Scanner(System.in);
-			String mov = com.nextLine();
-			//sNake.snakemove(snake, mov);
-			//new printMapa(mapa);
-			String up = "w";
-			String left = "a";
-			String righ = "d";
-			String down = "s";
-			
-			
-			if(mov == up){
-				System.out.println("aqui");
-				snake.y = snake.y+1;
+			int mov = com.nextInt();
+			mapa[snake.x][snake.y]=".";
+			new snakeMovv(snake, mov);
+			System.out.println(" ");
+			if(mapa[snake.x][snake.y] =="." || mapa[snake.x][snake.y] == "c"){
+				mapa[snake.x][snake.y] = snake.car;
+				new printMapa(mapa);
 			}
-			if(mov == down){
-				snake.y=snake.y-1;
+			else{
+				System.out.println("Ohh morreste!");
+				ttl = 0;
+				break;
 			}
-			if(mov == "a"){
-				snake.x ++; // = snake.x-1;
-			}
-			if(mov == righ){
-				snake.x = snake.x+1;
-			}
-			
-			System.out.println(snake.x);
-			
-		
-		//new printMapa(mapa);
 		}
 	}
 }
+

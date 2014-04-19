@@ -1,0 +1,24 @@
+package snakeoop;
+
+
+public class snakeMovv {
+	
+	public snakeMovv(sNake snak, String movv){
+		System.out.println("movv:" +movv);
+		/*if(movv=="a"){*/
+			snak.x = snak.x+1;
+			System.out.println("chegou ao a+");
+		/*}
+		if(movv == "w"){
+			snak.y = snak.y+1;
+		}
+		if(movv == "s"){
+			snak.y=snak.y-1;
+		}
+		if(movv == "d"){
+			snak.x = snak.x+1;
+		}*/
+		System.out.println(snak.x);
+	}
+}
+

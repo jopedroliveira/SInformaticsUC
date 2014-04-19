@@ -1,0 +1,25 @@
+package snakeoop;
+
+
+public class snakeMovv {
+	
+	public snakeMovv(sNake snak, int movv){
+		System.out.println("movv:" +movv);
+		if(movv== 8){
+			snak.x = snak.x-1;
+		}
+		else if(movv == 6){
+			snak.y = snak.y+1;
+		}
+		else if(movv == 5){
+			snak.y=snak.y+1;
+		}
+		else if(movv == 4){
+			snak.y = snak.y-1;
+		}
+		else if(movv==2){
+			snak.x = snak.x+1;
+		}
+	}
+}
+
