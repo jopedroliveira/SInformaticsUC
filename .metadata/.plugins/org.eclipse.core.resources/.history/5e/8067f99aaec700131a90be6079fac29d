@@ -1,0 +1,10 @@
+package snakeoop;
+
+import util Random;
+public class sNake {
+	int x,y;
+	public sNake(){
+		this.x =
+	}
+
+}

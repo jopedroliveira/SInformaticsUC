@@ -1,0 +1,12 @@
+package snakeoop;
+
+public class snakeMove {
+	String up = "w";
+	String left = "a";
+	String righ = "d";
+	String down = "s";
+	
+	public snakeMove(String[][] mapaq, sNake snak){
+
+	}
+}

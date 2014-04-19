@@ -1,0 +1,11 @@
+package snakeoop;
+
+public class snakeMove {
+	
+	public snakeMove(String[][] mapaq, sNake snak){
+		
+	}
+	}
+		
+
+}

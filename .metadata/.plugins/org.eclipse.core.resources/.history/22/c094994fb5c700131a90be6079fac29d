@@ -1,0 +1,18 @@
+package snakeoop;
+
+import java.util.Scanner;
+
+public class snakeMove {
+	String up = "w";
+	String left = "a";
+	String righ = "d";
+	String down = "s";
+	int TTL = 3;
+	int TTLbonus = 3;
+	
+	public snakeMove(String[][] mapaq, sNake snak){
+		Scanner com = new Scanner(System.in);
+		String mov =(String) com.nextLine();
+
+	}
+}
