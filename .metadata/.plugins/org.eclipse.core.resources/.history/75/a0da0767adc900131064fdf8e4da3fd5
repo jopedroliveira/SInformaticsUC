@@ -13,7 +13,7 @@ public class corpo_add {
 				
 			}
 			else{
-				continue;
+				break;
 			}
 		}
 		/*System.out.println("teste do corpo:"+ corpom[0].car + " tl: "+tlb);
