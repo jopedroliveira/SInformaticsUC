@@ -1,6 +1,7 @@
 package snakeoop;
 public class snakeMovv {
 	public String segcar = null;
+	
 	public snakeMovv(sNake snak, int movv){
 		if(movv== 8){
 			snak.x = snak.x-1;

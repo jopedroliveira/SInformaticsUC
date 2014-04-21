@@ -1,0 +1,19 @@
+package snakeoop;
+
+public class corpo_add {
+
+	public corpo_add(corposnakecriar[] corpom, String[][] mapax, int tlb, sNake snnake){
+
+		for(int t = 0; t < corpom.length; t++){
+			if(tlb>0){
+				if(corpom[t].car!="o"){
+					corpom[t].car = "o";
+					corpom[t].x = corpom[t-1].x;
+					corpom[t].y = corpom[t-1].y;
+					tlb = tlb-1;
+					mapax[corpom[t].x][corpom[t].y]= corpom[t].car;
+				}
+			}
+		}
+	}
+}

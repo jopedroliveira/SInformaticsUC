@@ -1,0 +1,23 @@
+package snakeoop;
+
+public class corpoMove {
+	public corpoMove(corposnakecriar[] corpom, sNake snakeantiga, String[][] mapax){
+		for(int m = corpom.length; m>=0; m--){
+			if(m==corpom.length){
+				mapax[corpom[m].x][corpom[m].y] = ".";
+			}
+			corpom[m].x = corpom[m-1].x;
+			corpom[m].y = corpom[m-1].y;
+			if(corpom[m].x < 11){
+				mapax[corpom[m].x][corpom[m].y] = corpom[m].car;
+			}
+						
+			if(m==0){
+				corpom[m].x = snakeantiga.x;
+				corpom[m].y = snakeantiga.y;
+				mapax[corpom[m].x][corpom[m].y] = corpom[m].car;
+			}
+
+		}
+	}
+}

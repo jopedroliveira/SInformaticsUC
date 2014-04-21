@@ -1,0 +1,16 @@
+package snakeoop;
+
+public class corpo_add {
+	private int tamanho = 12;
+	
+	public corpopush(sNake corpom, int tlb){
+		if(tlb>0){
+			for(int t = 0; t> corpom.length; t++){
+				if(corpom[t]!="o"){
+					cirpom[t] = "o";
+				}
+			
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+package snakeoop;
+
+public class corpo_add {
+	private int tamanho = 12;
+	
+	public corpo_add(sNake[] corpom, String[][] mapax, int tlb, sNake snnake){
+		if(tlb>0){
+			for(int t = 0; t> corpom.length; t++){
+				if(corpom[t]!="o"){
+					corpom[t].car = "o";
+					corpom[t].x = corpom[t-1].x;
+					corpom[t].y = corpom[t-1].y;
+				}
+			
+			}
+		}
+	}
+}

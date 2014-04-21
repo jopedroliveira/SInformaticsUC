@@ -1,0 +1,12 @@
+package snakeoop;
+
+
+public class corposnakecriar {
+	int x,y;
+	String car = null;
+	public sNake(){
+		this.x = null;
+		this.y = null;
+		this.car = null;
+	}
+}

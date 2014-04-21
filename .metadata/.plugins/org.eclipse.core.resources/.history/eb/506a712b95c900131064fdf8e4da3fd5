@@ -1,0 +1,14 @@
+package snakeoop;
+
+public class corpoMove {
+	public corpoMove(sNake[] corpo, int snakeantiga){
+		for(int m = corpom.length; m>=0; m--){
+			corpom[m].x = corpo[m-1].x;
+			corpom[m].y = corpo[m-1].y;
+			if(m==0){
+				corpo[m].x = snakeantiga.x;
+				corpo[m].y = snakeantiga.y;
+			}
+		}
+	}
+}
