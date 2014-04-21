@@ -4,6 +4,7 @@ public class corpoMove {
 
 	public corpoMove(corposnakecriar[] corpom, sNake snakeantiga, String[][] mapax, int m){
 		m = m-1;
+
 		for(int i = 0; i<mapax.length; i++){
 			for(int j =0; j<mapax[0].length; j++){
 				if(mapax[i][j]=="o"){
@@ -18,7 +19,6 @@ public class corpoMove {
 				corpom[0].x = snakeantiga.x;
 				corpom[0].y = snakeantiga.y;
 			}
-			
 			if(corpom[m].car == "o"){
 				corpom[m].x = corpom[m-1].x;
 				corpom[m].y = corpom[m-1].y;

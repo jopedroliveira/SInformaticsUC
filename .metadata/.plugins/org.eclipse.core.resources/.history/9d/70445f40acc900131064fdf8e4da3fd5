@@ -18,7 +18,6 @@ public class corpoMove {
 				corpom[0].x = snakeantiga.x;
 				corpom[0].y = snakeantiga.y;
 			}
-			
 			if(corpom[m].car == "o"){
 				corpom[m].x = corpom[m-1].x;
 				corpom[m].y = corpom[m-1].y;

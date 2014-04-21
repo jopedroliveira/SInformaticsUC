@@ -84,7 +84,7 @@ public class main {
 			corpo[f]= new corposnakecriar();
 		}
 		boolean corp = false; //quando for true e sinal que ja ha corpo para moviemntar
-		int n=0;
+		int n;
 		//JOGAR
 		Scanner com = new Scanner(System.in);
 		new printMapa(mapa);
@@ -96,7 +96,7 @@ public class main {
 			mapa[snake.x][snake.y]=".";
 			
 			if(corpo[0].car=="o"){
-				new corpoMove(corpo, snakeant,mapa, n);
+				new corpoMove(corpo, snakeant,mapa);
 				System.out.println("controlo2: "+corpo[0].x+" "+corpo[0].y);
 			}
 			
@@ -125,7 +125,6 @@ public class main {
 				ttl = ttl+bonusttl;
 				tl = 3;
 				corp = true;
-				n = n+3;
 				new printMapa(mapa);
 			}
 
