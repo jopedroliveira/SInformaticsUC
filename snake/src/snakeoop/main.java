@@ -6,7 +6,7 @@ import snakeoop.sNake;
 
 public class main {
 	public static void main(String[] args){
-		int ttl = 5;
+		int ttl = 555;
 		int bonusttl = 3;
 		System.out.println("Snake\n");
 		//Criar Mapa
@@ -27,10 +27,11 @@ public class main {
 			}
 			else{
 				criarObjeto saida = new criarObjeto();
-				if(mapa[saida.x][saida.y] !="X"){
-					mapa[saida.x][saida.y]= "S";
-					said = saida;
+				while(mapa[saida.x][saida.y] != "."){
+					saida = new criarObjeto();
 				}
+				mapa[saida.x][saida.y]= "S";
+				said = saida;
 			}
 		}
 
@@ -76,14 +77,14 @@ public class main {
 		}
 		
 		Scanner com = new Scanner(System.in);
-		System.out.println("TTL atual: "+ttl);
 		new printMapa(mapa);
 		
-		while(ttl>=0){ //adicionar as outra excepcoes pensar usar o try catch
+		while(ttl>0){
 			
-			new movimentoPontuacao(mapa,snake,ttl,bonusttl);
-		}
-			/*int mov = com.nextInt();
+		/*	new movimentoPontuacao(mapa,snake,ttl,bonusttl);
+			System.out.println("ttll atual: "+ttl);
+		}*/
+			int mov = com.nextInt();
 			mapa[snake.x][snake.y]=".";
 			new snakeMovv(snake, mov);
 			System.out.println("TTL atual: "+ttl);
@@ -101,15 +102,19 @@ public class main {
 				ttl = ttl+bonusttl;
 				new printMapa(mapa);
 			}
+			else if(mapa[snake.x][snake.y] == "S"){
+				System.out.println("GANHASTE!");
+			}
 			else{
 				System.out.println("Ohh morreste!");
 				ttl = -1;
 				break;
 			}
 		}
-		if(ttl <= 0){
-			System.out.println("Ohh acabaste com o teu TTL");
-		}*/
+		if(ttl == 0){
+			
+			System.out.println("TTL atual:0 \nOhh acabaste com o teu TTL");
+		}
 
 	}
 }

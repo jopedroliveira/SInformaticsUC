@@ -252,3 +252,12 @@ Command-line arguments:  -os linux -ws gtk -arch x86
 
 !ENTRY org.eclipse.core.resources 4 567 2014-04-18 23:24:50.855
 !MESSAGE The project description file (.project) for 'av3d.java' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!SESSION 2014-04-21 14:18:05.643 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_30
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-04-21 14:18:12.158
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
