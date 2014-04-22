@@ -1,0 +1,12 @@
+package snakeoop;
+import java.util.Random
+public class inimigoMover {
+	
+	public inimigoMover(criarObjeto[] inimigu){
+	for(int i=0; i<inimigu.length;i++){
+		inimigu[i].x = inimigu[i].x + 
+	}
+		
+	}
+
+}

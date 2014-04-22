@@ -99,9 +99,8 @@ public class main {
 				new corpoMove(corpo, snakeant,mapa, n);
 				System.out.println("controlo2: "+corpo[0].x+" "+corpo[0].y);
 			}
-			new inimigoMover(inimigo, mapa);
-			new snakeMovv(snake, mov);
 			
+			new snakeMovv(snake, mov);
 			
 			System.out.println("TTL atual: "+ttl);
 			

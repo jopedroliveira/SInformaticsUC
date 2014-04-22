@@ -1,0 +1,24 @@
+package snakeoop;
+
+import java.util.Random;
+
+public class inimigoMover {
+
+	public inimigoMover(criarObjeto[] inimigu, String[][] mapax){
+		for(int i = 0; i<mapax.length; i++){
+			for(int j =0; j<mapax[0].length; j++){
+				if(mapax[i][j]=="I"){
+					mapax[i][j] = ".";
+
+				}
+			}
+		}
+		Random rand = new Random(); 
+		for(int d=0; d<inimigu.length;d++){
+			inimigu[d].x = inimigu[d].x + (rand.nextInt(2)-1);
+			inimigu[d].y = inimigu[d].y + (rand.nextInt(2)-1);
+			mapa([inimigu[d].x][inimigu[d].y])="I";
+		}
+	}
+
+}
