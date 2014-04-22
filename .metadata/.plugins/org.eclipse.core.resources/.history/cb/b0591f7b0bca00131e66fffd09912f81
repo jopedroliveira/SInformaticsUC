@@ -63,14 +63,10 @@ public class main {
 		}
 
 		//Iniciar jogo
-		System.out.println("Bem Vindo ao Snake!");
-		System.out.println("O TTL indica-te os movimentos que tens ao teu dispor.\nUsa-os para alcançar a saída (S)\nApanha mais comida (c) para teres mais movimentos disponiveis.\nSe o TTL te acabar, perderas o jogo.");
-		System.out.println("\nMas cuidado! Os inimigos andam ai!\nAh, e os obstaculos e limites, sao para evitar!");
-		System.out.println("\nAssim que aparecer o mapa, usa as teclas 8 (cima) 4(esquerda) 5 (baixo) 6 (direita) para controlar a Snake (0)");
-		System.out.println("Pressiona ENTER para iniciar.");
+		System.out.println("Press Enter para iniciar.");
 		Scanner start = new Scanner(System.in);
 		start.nextLine();
-		System.out.println("Aqui esta o teu mapa. E aqui que vais jogar a partir de agora.\nTens disponivel 5 TTL, usa-os bem!");
+
 
 		//Criar a snake
 		sNake snake = new sNake();
@@ -89,7 +85,6 @@ public class main {
 		}
 		boolean corp = false; //quando for true e sinal que ja ha corpo para moviemntar
 		int n=0;
-		
 		//JOGAR
 		Scanner com = new Scanner(System.in);
 		new printMapa(mapa);
@@ -102,7 +97,7 @@ public class main {
 			
 			if(corpo[0].car=="o"){
 				new corpoMove(corpo, snakeant,mapa, n);
-				
+				System.out.println("controlo2: "+corpo[0].x+" "+corpo[0].y);
 			}
 			new inimigoMover(inimigo, mapa);
 			new snakeMovv(snake, mov);
@@ -122,6 +117,7 @@ public class main {
 					new corpo_add(corpo, tl);
 					tl = tl-1;
 				}
+				System.out.println("controlo: "+corpo[0].car);
 				
 				new printMapa(mapa);
 			}

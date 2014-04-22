@@ -122,6 +122,7 @@ public class main {
 					new corpo_add(corpo, tl);
 					tl = tl-1;
 				}
+				System.out.println("controlo: "+corpo[0].car);
 				
 				new printMapa(mapa);
 			}

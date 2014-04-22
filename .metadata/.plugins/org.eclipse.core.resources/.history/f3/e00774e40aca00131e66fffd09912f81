@@ -30,13 +30,11 @@ public class inimigoMover {
 				inimigu[d].y = inimigu[d].y + (rand.nextInt(2)-1);
 			}
 			
-			if(inimigu[d].y == 0 && inimigu[d].x == 0){
+			else{
 				inimigu[d].x = inimigu[d].x + (rand.nextInt(1));
 				inimigu[d].y = inimigu[d].y + (rand.nextInt(1));
 			}
-			
-			
-			if(mapax[inimigu[d].x][inimigu[d].y]=="."){
+			if(mapax[inimigu[d].x][inimigu[d].y]=="." && inimigu[d].x>=0 && inimigu[d].y>=0){
 				mapax[inimigu[d].x][inimigu[d].y]="I";
 			}
 			else{

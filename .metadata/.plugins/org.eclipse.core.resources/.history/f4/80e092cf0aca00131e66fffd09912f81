@@ -17,11 +17,11 @@ public class inimigoMover {
 		Random rand = new Random(); 
 		for(int d=0; d<inimigu.length;d++){
 			
-			if(inimigu[d].x == 0 && inimigu[d].y != 0){
+			if(inimigu[d].x == 0){
 				inimigu[d].x = inimigu[d].x + (rand.nextInt(1));
 				inimigu[d].y = inimigu[d].y + (rand.nextInt(2)-1);
 			}
-			if(inimigu[d].y == 0 && inimigu[d].x != 0){
+			if(inimigu[d].y == 0){
 				inimigu[d].y = inimigu[d].y + (rand.nextInt(1));
 				inimigu[d].x = inimigu[d].x + (rand.nextInt(2)-1);
 			}
@@ -29,14 +29,11 @@ public class inimigoMover {
 				inimigu[d].x = inimigu[d].x + (rand.nextInt(2)-1);
 				inimigu[d].y = inimigu[d].y + (rand.nextInt(2)-1);
 			}
-			
-			if(inimigu[d].y == 0 && inimigu[d].x == 0){
+			else{
 				inimigu[d].x = inimigu[d].x + (rand.nextInt(1));
 				inimigu[d].y = inimigu[d].y + (rand.nextInt(1));
 			}
-			
-			
-			if(mapax[inimigu[d].x][inimigu[d].y]=="."){
+			if(mapax[inimigu[d].x][inimigu[d].y]=="." && inimigu[d].x>=0 && inimigu[d].y>=0){
 				mapax[inimigu[d].x][inimigu[d].y]="I";
 			}
 			else{
