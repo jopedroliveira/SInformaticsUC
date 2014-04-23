@@ -6,7 +6,7 @@ import snakeoop.sNake;
 
 public class main {
 	public static void main(String[] args){
-		int ttl = 555;
+		int ttl = 5555;
 		int bonusttl = 5;
 		int tl = 0;
 		

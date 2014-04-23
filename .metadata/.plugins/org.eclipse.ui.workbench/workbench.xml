@@ -35,21 +35,26 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="main.java" partName="main.java" path="/home/pedrooliveira/workspace/snake/src/snakeoop/main.java" title="main.java" tooltip="snake/src/snakeoop/main.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="main.java" partName="main.java" path="/home/pedrooliveira/workspace/snake/src/snakeoop/main.java" title="main.java" tooltip="snake/src/snakeoop/main.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/snake/src/snakeoop/main.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="147" selectionTopPixel="254"/>
+<editorState selectionHorizontalPixel="0" selectionLength="357" selectionOffset="25" selectionTopPixel="17"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="inimigoMover.java" partName="inimigoMover.java" path="/home/pedrooliveira/workspace/snake/src/snakeoop/inimigoMover.java" title="inimigoMover.java" tooltip="snake/src/snakeoop/inimigoMover.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/snake/src/snakeoop/inimigoMover.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="476" selectionTopPixel="277"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="corposnakecriar.java" partName="corposnakecriar.java" path="/home/pedrooliveira/workspace/snake/src/snakeoop/corposnakecriar.java" title="corposnakecriar.java" tooltip="snake/src/snakeoop/corposnakecriar.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/snake/src/snakeoop/corposnakecriar.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="posicao.java" partName="posicao.java" path="/home/pedrooliveira/workspace/snake/src/snakeoop/posicao.java" title="posicao.java" tooltip="snake/src/snakeoop/posicao.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/snake/src/snakeoop/posicao.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="57" selectionOffset="109" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="corpo_add.java" partName="corpo_add.java" path="/home/pedrooliveira/workspace/snake/src/snakeoop/corpo_add.java" title="corpo_add.java" tooltip="snake/src/snakeoop/corpo_add.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/snake/src/snakeoop/corpo_add.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="294" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="criarObjeto.java" partName="criarObjeto.java" path="/home/pedrooliveira/workspace/snake/src/snakeoop/criarObjeto.java" title="criarObjeto.java" tooltip="snake/src/snakeoop/criarObjeto.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/snake/src/snakeoop/criarObjeto.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -67,6 +72,7 @@
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
 <category IMemento.internal.id="Warnings (4 items)"/>
+<category IMemento.internal.id="Warnings"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="571" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -269,7 +275,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@11d371d" ratio="0.5367047" ratioLeft="329" ratioRight="284" relationship="4" relative="left">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@11d371d" ratio="0.58564436" ratioLeft="359" ratioRight="254" relationship="4" relative="left">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
 <page content="org.eclipse.pde.runtime.LogView" label="Error Log"/>
@@ -318,162 +324,168 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/snake/src/snakeoop/main.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/snake/src/snakeoop/corpo_add.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/snake/src/snakeoop/corpoMove.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/snake/src/snakeoop/inimigoMover.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/snake/src/snakeoop/main.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/snake/src/snakeoop/inimigoMover.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/snake/src/snakeoop/posicao.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/snake/src/snakeoop/main.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/snake/src/snakeoop/inimigoMover.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/snake/src/snakeoop/corpoMove.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/snake/src/snakeoop/corposnakecriar.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/snake/src/snakeoop/corpo_add.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/snake/src/snakeoop/main.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/snake/src/snakeoop/criarObjeto.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/snake/src/snakeoop/corposnakecriar.java"/>
 </editors>
-<item historyLabel="corpoMove.java" index="2">
-<position info="not_deleted" x="295" y="0"/>
-</item>
-<item historyLabel="main.java" index="0">
-<position info="not_deleted" x="217" y="0"/>
-</item>
-<item historyLabel="corpoMove.java" index="2">
-<position info="not_deleted" x="294" y="0"/>
-</item>
-<item historyLabel="main.java" index="0">
-<position info="not_deleted" x="217" y="0"/>
-</item>
-<item historyLabel="corpoMove.java" index="2">
-<position info="not_deleted" x="144" y="0"/>
-</item>
-<item historyLabel="main.java" index="0">
-<position info="not_deleted" x="217" y="0"/>
-</item>
-<item historyLabel="corpoMove.java" index="2">
-<position info="not_deleted" x="144" y="0"/>
-</item>
-<item historyLabel="main.java" index="0">
-<position info="not_deleted" x="217" y="0"/>
-</item>
-<item historyLabel="corpoMove.java" index="2">
-<position info="not_deleted" x="307" y="0"/>
-</item>
-<item historyLabel="main.java" index="0">
-<position info="not_deleted" x="217" y="0"/>
-</item>
-<item historyLabel="corpoMove.java" index="2">
-<position info="not_deleted" x="414" y="0"/>
-</item>
-<item historyLabel="corpo_add.java" index="1">
-<position info="not_deleted" x="178" y="0"/>
-</item>
-<item historyLabel="main.java" index="0">
-<position info="not_deleted" x="2911" y="2"/>
-</item>
-<item historyLabel="corpo_add.java" index="1">
-<position info="not_deleted" x="288" y="0"/>
-</item>
-<item historyLabel="main.java" index="0">
-<position info="not_deleted" x="232" y="0"/>
-</item>
-<item historyLabel="inimigoMover.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="inimigoMover.java" index="3">
-<position info="not_deleted" x="159" y="0"/>
-</item>
-<item historyLabel="inimigoMover.java" index="3">
-<position info="not_deleted" x="997" y="0"/>
-</item>
-<item historyLabel="posicao.java" index="4">
-<position info="not_deleted" x="109" y="57"/>
-</item>
-<item historyLabel="inimigoMover.java" index="3">
+<item historyLabel="inimigoMover.java" index="2">
 <position info="not_deleted" x="557" y="0"/>
 </item>
 <item historyLabel="main.java" index="0">
 <position info="not_deleted" x="2353" y="0"/>
 </item>
-<item historyLabel="inimigoMover.java" index="3">
+<item historyLabel="inimigoMover.java" index="2">
 <position info="not_deleted" x="557" y="0"/>
 </item>
 <item historyLabel="main.java" index="0">
 <position info="not_deleted" x="2315" y="0"/>
 </item>
-<item historyLabel="inimigoMover.java" index="3">
+<item historyLabel="inimigoMover.java" index="2">
 <position info="not_deleted" x="557" y="0"/>
 </item>
-<item historyLabel="inimigoMover.java" index="3">
+<item historyLabel="inimigoMover.java" index="2">
 <position info="not_deleted" x="177" y="0"/>
 </item>
-<item historyLabel="inimigoMover.java" index="3">
+<item historyLabel="inimigoMover.java" index="2">
 <position info="not_deleted" x="358" y="0"/>
 </item>
-<item historyLabel="corpoMove.java" index="2">
+<item historyLabel="corpoMove.java" index="1">
 <position info="not_deleted" x="147" y="144"/>
 </item>
-<item historyLabel="inimigoMover.java" index="3">
+<item historyLabel="inimigoMover.java" index="2">
 <position info="not_deleted" x="358" y="0"/>
 </item>
-<item historyLabel="inimigoMover.java" index="3">
+<item historyLabel="inimigoMover.java" index="2">
 <position info="not_deleted" x="1022" y="0"/>
 </item>
-<item historyLabel="inimigoMover.java" index="3">
+<item historyLabel="inimigoMover.java" index="2">
 <position info="not_deleted" x="1215" y="0"/>
 </item>
-<item historyLabel="inimigoMover.java" index="3">
+<item historyLabel="inimigoMover.java" index="2">
 <position info="not_deleted" x="1215" y="0"/>
 </item>
-<item historyLabel="inimigoMover.java" index="3">
+<item historyLabel="inimigoMover.java" index="2">
 <position info="not_deleted" x="1215" y="0"/>
 </item>
-<item historyLabel="inimigoMover.java" index="3">
+<item historyLabel="inimigoMover.java" index="2">
 <position info="not_deleted" x="125" y="0"/>
 </item>
-<item historyLabel="inimigoMover.java" index="3">
+<item historyLabel="inimigoMover.java" index="2">
 <position info="not_deleted" x="1208" y="0"/>
 </item>
 <item historyLabel="main.java" index="0">
 <position info="not_deleted" x="146" y="0"/>
 </item>
-<item historyLabel="inimigoMover.java" index="3">
+<item historyLabel="inimigoMover.java" index="2">
 <position info="not_deleted" x="998" y="84"/>
 </item>
-<item historyLabel="inimigoMover.java" index="3">
+<item historyLabel="inimigoMover.java" index="2">
 <position info="not_deleted" x="468" y="0"/>
 </item>
-<item historyLabel="inimigoMover.java" index="3">
+<item historyLabel="inimigoMover.java" index="2">
 <position info="not_deleted" x="470" y="0"/>
 </item>
-<item historyLabel="inimigoMover.java" index="3">
+<item historyLabel="inimigoMover.java" index="2">
 <position info="not_deleted" x="614" y="0"/>
 </item>
-<item historyLabel="inimigoMover.java" index="3">
+<item historyLabel="inimigoMover.java" index="2">
 <position info="not_deleted" x="868" y="0"/>
 </item>
 <item historyLabel="main.java" index="0">
 <position info="not_deleted" x="146" y="0"/>
 </item>
-<item historyLabel="inimigoMover.java" index="3">
+<item historyLabel="inimigoMover.java" index="2">
 <position info="not_deleted" x="1080" y="0"/>
 </item>
 <item historyLabel="main.java" index="0">
 <position info="not_deleted" x="146" y="0"/>
 </item>
-<item historyLabel="corpoMove.java" index="2">
+<item historyLabel="corpoMove.java" index="1">
 <position info="not_deleted" x="147" y="144"/>
 </item>
-<item historyLabel="inimigoMover.java" index="3">
+<item historyLabel="inimigoMover.java" index="2">
 <position info="not_deleted" x="358" y="0"/>
 </item>
-<item historyLabel="corpoMove.java" index="2">
+<item historyLabel="corpoMove.java" index="1">
 <position info="not_deleted" x="287" y="0"/>
 </item>
-<item historyLabel="main.java" index="5">
+<item historyLabel="main.java" index="3">
 <position info="not_deleted" x="149" y="0"/>
 </item>
-<item historyLabel="inimigoMover.java" index="6">
+<item historyLabel="inimigoMover.java" index="4">
 <position info="not_deleted" x="1064" y="0"/>
 </item>
-<item historyLabel="main.java" index="5">
+<item historyLabel="main.java" index="3">
 <position info="not_deleted" x="147" y="0"/>
 </item>
-<item active="true" historyLabel="inimigoMover.java" index="6">
-<position info="not_deleted" x="1081" y="46"/>
+<item historyLabel="inimigoMover.java" index="4">
+<position info="not_deleted" x="476" y="0"/>
+</item>
+<item historyLabel="inimigoMover.java" index="4">
+<position info="not_deleted" x="1572" y="0"/>
+</item>
+<item historyLabel="posicao.java" index="5">
+<position info="not_deleted" x="160" y="0"/>
+</item>
+<item historyLabel="inimigoMover.java" index="4">
+<position info="not_deleted" x="1100" y="0"/>
+</item>
+<item historyLabel="main.java" index="6">
+<position info="not_deleted" x="144" y="0"/>
+</item>
+<item historyLabel="inimigoMover.java" index="4">
+<position info="not_deleted" x="1581" y="46"/>
+</item>
+<item historyLabel="main.java" index="6">
+<position info="not_deleted" x="144" y="0"/>
+</item>
+<item historyLabel="inimigoMover.java" index="4">
+<position info="not_deleted" x="1581" y="46"/>
+</item>
+<item historyLabel="posicao.java" index="5">
+<position info="not_deleted" x="160" y="0"/>
+</item>
+<item historyLabel="main.java" index="6">
+<position info="not_deleted" x="144" y="0"/>
+</item>
+<item historyLabel="corpoMove.java" index="7">
+<position info="not_deleted" x="311" y="0"/>
+</item>
+<item historyLabel="main.java" index="6">
+<position info="not_deleted" x="144" y="0"/>
+</item>
+<item historyLabel="corposnakecriar.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="corpo_add.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.java" index="10">
+<position info="not_deleted" x="523" y="0"/>
+</item>
+<item historyLabel="criarObjeto.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.java" index="10">
+<position info="not_deleted" x="3786" y="0"/>
+</item>
+<item historyLabel="corpo_add.java" index="9">
+<position info="not_deleted" x="299" y="213"/>
+</item>
+<item historyLabel="corposnakecriar.java" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="main.java" index="10">
+<position info="not_deleted" x="3786" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -492,6 +504,18 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="criarObjeto.java" tooltip="snake/src/snakeoop/criarObjeto.java">
+<persistable path="/snake/src/snakeoop/criarObjeto.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="corpo_add.java" tooltip="snake/src/snakeoop/corpo_add.java">
+<persistable path="/snake/src/snakeoop/corpo_add.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="corposnakecriar.java" tooltip="snake/src/snakeoop/corposnakecriar.java">
+<persistable path="/snake/src/snakeoop/corposnakecriar.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="corpoMove.java" tooltip="snake/src/snakeoop/corpoMove.java">
+<persistable path="/snake/src/snakeoop/corpoMove.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="posicao.java" tooltip="snake/src/snakeoop/posicao.java">
 <persistable path="/snake/src/snakeoop/posicao.java"/>
 </file>
@@ -503,15 +527,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="snakeMovv.java" tooltip="snake/src/snakeoop/snakeMovv.java">
 <persistable path="/snake/src/snakeoop/snakeMovv.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="corpo_add.java" tooltip="snake/src/snakeoop/corpo_add.java">
-<persistable path="/snake/src/snakeoop/corpo_add.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="corposnakecriar.java" tooltip="snake/src/snakeoop/corposnakecriar.java">
-<persistable path="/snake/src/snakeoop/corposnakecriar.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="corpoMove.java" tooltip="snake/src/snakeoop/corpoMove.java">
-<persistable path="/snake/src/snakeoop/corpoMove.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="sNake.java" tooltip="snake/src/snakeoop/sNake.java">
 <persistable path="/snake/src/snakeoop/sNake.java"/>
@@ -530,9 +545,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Pessoa.java" tooltip="F5E2/src/ex2/Pessoa.java">
 <persistable path="/F5E2/src/ex2/Pessoa.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="criarObjeto.java" tooltip="snake/src/snakeoop/criarObjeto.java">
-<persistable path="/snake/src/snakeoop/criarObjeto.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="position.java" tooltip="F5P5/src/ex5/position.java">
 <persistable path="/F5P5/src/ex5/position.java"/>
