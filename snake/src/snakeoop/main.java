@@ -40,10 +40,12 @@ public class main {
 
 		//Criar inimigos
 		criarObjeto inimigo[] = new criarObjeto[3];
+
 		for(int zz =0; zz< inimigo.length; zz++){
 			criarObjeto inim = new criarObjeto();
 			inimigo[zz] = inim;
 		} 
+		
 		for(int a =0; a<3; a++){
 			if(mapa[inimigo[a].x][inimigo[a].y] == "."){
 				mapa[inimigo[a].x][inimigo[a].y] = "I";
@@ -72,6 +74,7 @@ public class main {
 		start.nextLine();
 		System.out.println("Aqui esta o teu mapa. E aqui que vais jogar a partir de agora.\nTens disponivel 5 TTL, usa-os bem!");
 
+		
 		//Criar a snake
 		sNake snake = new sNake();
 		boolean bb = false;				
@@ -83,10 +86,12 @@ public class main {
 		}
 		
 		//Criar matriz do corpo
+		
 		corposnakecriar[] corpo = new corposnakecriar[12];
 		for(int f =0; f<corpo.length; f++){
 			corpo[f]= new corposnakecriar();
 		}
+		
 		boolean corp = false; //quando for true e sinal que ja ha corpo para moviemntar
 		int n=0;
 		
@@ -104,6 +109,7 @@ public class main {
 				new corpoMove(corpo, snakeant,mapa, n);
 				
 			}
+			
 			new inimigoMover(inimigo, mapa);
 			new snakeMovv(snake, mov);
 			
