@@ -319,6 +319,18 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="avaliacao2.java" tooltip="avaliacao2.java/avaliacao2.java">
+<persistable path="/avaliacao2.java/avaliacao2.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="avaliacao3.java" tooltip="avaliacao3.java/src/av3/avaliacao3.java">
+<persistable path="/avaliacao3.java/src/av3/avaliacao3.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="avaliacao2.java" tooltip="avaliacao2.java/src/avaliacao2.java">
+<persistable path="/avaliacao2.java/src/avaliacao2.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="avaliacao.java" tooltip="avaliacao/src/avaliacao.java">
+<persistable path="/avaliacao/src/avaliacao.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ser.java" tooltip="F5P1_sockets/src/ser.java">
 <persistable path="/F5P1_sockets/src/ser.java"/>
 </file>
@@ -351,18 +363,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="a.java" tooltip="ServidorCliente/src/a.java">
 <persistable path="/ServidorCliente/src/a.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="criarObjeto.java" tooltip="snake/src/snakeoop/criarObjeto.java">
-<persistable path="/snake/src/snakeoop/criarObjeto.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="corpo_add.java" tooltip="snake/src/snakeoop/corpo_add.java">
-<persistable path="/snake/src/snakeoop/corpo_add.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="corposnakecriar.java" tooltip="snake/src/snakeoop/corposnakecriar.java">
-<persistable path="/snake/src/snakeoop/corposnakecriar.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="corpoMove.java" tooltip="snake/src/snakeoop/corpoMove.java">
-<persistable path="/snake/src/snakeoop/corpoMove.java"/>
 </file>
 </mruList>
 </workbench>
