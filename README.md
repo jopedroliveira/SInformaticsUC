@@ -1,2 +1,0 @@
-# SInformaticsUC
-##Oliveira, J Pedro;
